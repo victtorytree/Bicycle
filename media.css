@@ -1,0 +1,105 @@
+@media (max-width: 1069px) {
+    .s-column {
+        flex: 0 1 50%;
+        padding: 45px;
+    }
+    .feedback-text {
+        font-size: 16px;
+    }
+    .feedback-heading {
+        font-size: 16px;
+    }
+    .s-stay__subtitle {
+        font-size: 18px;
+    }
+    .s-shop {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(3, auto);
+        max-height: unset;
+    }
+}
+@media (max-width: 767px) {
+    .top-menu__list {
+        display: none;
+    }
+    .menu-mobile {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: #5A576D;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        color: #64be9c;
+        font-size: 20px;
+    }
+    .menu-mobile li {
+        margin-bottom: 16px;
+    }
+    .menu-mobile li::after {
+            display: none;
+        }
+    .menu-mobile li:nth-child(2) {
+            margin-right: 0;
+        }
+    .menu-burger {
+        display: flex;
+        align-items: center;
+    }
+    .s-column_hide {
+        display: none;
+    }
+}
+@media (max-width: 629px) {
+    .text, .feedback-text, .feedback-heading {
+        font-size: 14px;
+    }
+    .h2 {
+        font-size: 16px;
+    }
+    .s-column .text  {
+        font-size: 14px;
+    }
+    #twitter {
+        padding-top: 64px;
+    }
+    .slider .owl-dots {
+        margin-top: 25px;
+    }
+    .row_discover {
+        padding: 25px;
+    }
+    .s-stay {
+        padding: 60px 50px;
+    }
+    .s-stay__form {
+        flex-wrap: wrap;
+    }
+    .s-stay__button {
+        padding: 15px 30px;
+    }
+}
+
+@media (max-width: 569px) {
+    .section-flow {
+        flex-wrap: wrap;
+    }
+    .s-column {
+        flex: 0 1 100%;
+        padding-bottom: 45%;
+    }
+    .s-column .text::after {
+        display: none;
+    }
+    .s-column_main {
+        padding: 0;
+        min-height: 300px;
+    }
+    .footer__body {
+        flex-wrap: wrap;
+        row-gap: 25px;
+    }
+}
